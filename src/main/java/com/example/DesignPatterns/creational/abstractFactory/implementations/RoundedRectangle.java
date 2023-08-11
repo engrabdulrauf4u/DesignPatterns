@@ -1,0 +1,10 @@
+package com.example.DesignPatterns.creational.abstractFactory.implementations;
+
+import com.example.DesignPatterns.creational.abstractFactory.interfaces.Shape;
+
+public class RoundedRectangle implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("Inside RoundedRectangle::draw() method.");
+    }
+}
